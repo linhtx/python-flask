@@ -5,8 +5,8 @@ from google.cloud import datastore
 app = Flask(__name__)
 project_id = 'python-flask-tokyo-15482'
 
-import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "15482-5682fbe0bf33.json"
+# import os
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "15482-5682fbe0bf33.json"
 
 @app.route("/")
 def home():
